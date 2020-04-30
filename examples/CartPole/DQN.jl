@@ -1,12 +1,10 @@
 using Flux, Gym
 using Flux.Optimise: Optimiser
-# using Flux.Tracker: data
 using Statistics: mean
 using DataStructures: CircularBuffer
 using Distributions: sample
 using Printf
 using StatsBase
-# using CuArrays
 
 # Load game environment
 env = make("CartPole-v0", :human_pane)
